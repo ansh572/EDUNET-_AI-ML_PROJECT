@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Recommendation System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        /* Transparent Div */
+        .center-div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(178, 255, 233, 0.32);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .center-div h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #111F35;
+        }
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 1.2rem;
+            color: #333;
+            text-decoration: none;
+            background: linear-gradient(90deg, #007BFF, #00B4DB);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 7px 14px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<div class="center-div">
+        <h1>HELLO!! Explore The Destinations Personalized For You</h1>
+        <a href="/recommend" class="btn">Travel Recommendation</a>
+    </div>
+<body>
+</body>
+</html>
